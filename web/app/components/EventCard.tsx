@@ -6,18 +6,12 @@ export default function EventCard({ esd }: { esd: Esdeveniment }) {
             <span className="text-xs font-semibold uppercase tracking-wide text-blue-500 px-2 py-1 rounded-full">
                 {esd.ciutat}
             </span>
-
             <h2 className="text-lg font-bold text-gray-800 mt-3">
                 {esd.nom}
             </h2>
-
             <p className="text-sm text-gray-600 mb-3">
                 {esd.data}
             </p>
-
-            <a href={esd.id} className="text-sm text-blue-600 hover:underline">
-                veure esdeveniment
-            </a>
         </div>
     )
 }

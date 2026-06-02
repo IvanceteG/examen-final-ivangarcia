@@ -10,31 +10,31 @@
 
 | | Criteri | Punts |
 | --- | --- | --- |
-| [ ] | B0 — Monorepo amb `apps/web` i `apps/api` | 0,2 |
-| [ ] | B1 — `app/page.tsx` amb títol | 0,2 |
-| [ ] | B2 — `app/events/page.tsx` funcional | 0,4 |
-| [ ] | B3 — `EventCard` reutilitzable | 0,5 |
-| [ ] | B4 — Targetes amb `id`, `nom`, `data`, `ciutat` | 0,6 |
-| [ ] | B5 — Almenys 4 events visibles | 0,3 |
-| [ ] | B6 — Estil bàsic (CSS o Tailwind) | 0,4 |
-| [ ] | B7 — Carpetes `app/` i `components/` | 0,3 |
-| [ ] | B8 — Frontend arrenca sense errors bloquejants | 0,1 |
+| [x] | B0 — Monorepo amb `apps/web` i `apps/api` | 0,2 |
+| [x] | B1 — `app/page.tsx` amb títol | 0,2 |
+| [x] | B2 — `app/events/page.tsx` funcional | 0,4 |
+| [x] | B3 — `EventCard` reutilitzable | 0,5 |
+| [x] | B4 — Targetes amb `id`, `nom`, `data`, `ciutat` | 0,6 |
+| [x] | B5 — Almenys 4 events visibles | 0,3 |
+| [x] | B6 — Estil bàsic (CSS o Tailwind) | 0,4 |
+| [x] | B7 — Carpetes `app/` i `components/` | 0,3 |
+| [x] | B8 — Frontend arrenca sense errors bloquejants | 0,1 |
 | | **Subtotal B** | **___ / 3,0** |
 
 ### C. API (`apps/api`) — màx. 3,0 · PR: ___
 
 | | Criteri | Punts |
 | --- | --- | --- |
-| [ ] | C1 — `GET /api/events` → llistat JSON | 0,5 |
-| [ ] | C2 — `GET /api/events/:id` → un event | 0,5 |
-| [ ] | C3 — `id` inexistent → `404` JSON | 0,5 |
-| [ ] | C4 — `routes/` + `controllers/` | 0,4 |
-| [ ] | C5 — Dades en memòria | 0,2 |
+| [x] | C1 — `GET /api/events` → llistat JSON | 0,5 |
+| [x] | C2 — `GET /api/events/:id` → un event | 0,5 |
+| [x] | C3 — `id` inexistent → `404` JSON | 0,5 |
+| [x] | C4 — `routes/` + `controllers/` | 0,4 |
+| [x] | C5 — Dades en memòria | 0,2 |
 | [ ] | C6 — Logger (mètode + ruta) | 0,3 |
-| [ ] | C7 — Errors en JSON | 0,3 |
-| [ ] | C8 — Detall amb `nom`, `data`, `ciutat` | 0,1 |
-| [ ] | C9 — API arrenca en local | 0,2 |
-| [ ] | C10 — Codis HTTP coherents | 0,2 |
+| [x] | C7 — Errors en JSON | 0,3 |
+| [x] | C8 — Detall amb `nom`, `data`, `ciutat` | 0,1 |
+| [x] | C9 — API arrenca en local | 0,2 |
+| [x] | C10 — Codis HTTP coherents | 0,2 |
 | | **Subtotal C** | **___ / 3,0** |
 
 ### D. Integració — màx. 1,0 · PR: ___

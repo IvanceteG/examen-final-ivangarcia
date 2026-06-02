@@ -1,4 +1,4 @@
-const events = require("../data");
+const events = require("../data/data.js");
  
 const getEvents = (req, res) => {
   res.json(events);

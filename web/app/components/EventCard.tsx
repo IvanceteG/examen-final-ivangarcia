@@ -1,7 +1,7 @@
 interface esdeveniment{
-    id: ,
+    id: boolean,
     nom: string,
-    data: ,
+    data: string,
     ciutat: string
 }
 
